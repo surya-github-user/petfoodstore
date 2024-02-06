@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+.headersubdiv{
+    background-image: url(./images/headerimg/headerbackgroundimg.png);
+    background-size: cover;
+}
+.gridlayout{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headersubdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.headersubdivtwo ul{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+.headersubdivthree ul{
+    display: flex;
+    list-style: none;
+    
+}
+.headersubdivtwo ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+.headersubdivthree ul li a{
+    padding-right: 10px;
+}
+.herosectionsubdivone img{
+    width: 100%;
+}
+.herosectionsubdivtwo{
+    position: absolute;
+    top: 180px;
+    left: 130px;
+}
+.herosectionsubdivtwo h3{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.herosectionsubdivtwo h1{
+    font-size: 55px;
+}
+.sectionone{
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+    margin-top: 50px;
+}
+
+.searchbar input{
+    padding: 10px 20px 10px 15px;
+    background-color: #751C65;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+}
+::placeholder{
+    color: white;
+}
+.rangebar p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.rangebar{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.button{
+    padding: 7px 14px;
+    border-radius: 7px;
+    background-color: #751C65;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;   
+}
+.contentonimg{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    
+}
+.sectiononesubdivone h3{
+    font-size: 25px;
+    color: #751C65;
+    
+
+}
+.productone,.producttwo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.sectiontwoproductone,.sectiontwoproducttwo,.sectiontwoproductthree,.sectiontwoproductfour{
+    width: auto;
+    height: auto;
+}
+.sectiontwoproductone p,.sectiontwoproducttwo p,.sectiontwoproductthree p,.sectiontwoproductfour p{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #818181;
+    border-bottom: #eeeeee 1px solid;
+    border-right: #eeeeee 1px solid;
+    border-left: #eeeeee 1px solid;
+}
+.rate{
+    color: black;
+    padding-top: 5px;
+}
+.sectiontwo{
+    margin-top: 50px;
+}
+
+.footersubdivone {
+    display: flex;
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    color: rgb(179, 179, 179);
+}
+
+.aboutus {
+    flex-basis: 33.33%;
+
+    padding: 40px 0px 0px 90px;
+}
+
+.contactus {
+    flex-basis: 33.33%;
+
+    padding: 40px 0px 0px 130px;
+}
+
+.information {
+    flex-basis: 33.33%;
+
+    padding: 40px 0px 0px 150px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #393939;
+    margin-top: 10px;
+
+}
+
+.footersubdivone h3 {
+    font-size: 33px;
+    padding-bottom: 30px;
+    color: white;
+
+}
+
+.footersubdivone p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.phonenumber p {
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.location p {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.phonenumber,
+.location {
+    display: flex;
+}
+
+.phonenumber img,
+.location img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.location img{
+    padding-top: 10px;
+
+    }
+
+.footersubdivtwo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    border-top: white 1px solid;
+    padding: 20px 10px 20px 10px;
+}
+
+.footersubdivtwo p {
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    padding-bottom: 10px;
+}
+
+.footersubdivtwo img {
+
+    height: 18px;
+    padding-right: 10px;
+
+}
+.headersubdivtwo ul li a:hover{
+    color: #FED765;
+}
+
+@media screen and (max-width: 500px) {
+
+    .headersubdivone img {
+        width: 45px;
+        height: auto;
+    }
+
+    .headersubdivone {
+        width: auto;
+    }
+
+    .headersubdivtwo ul li a {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+
+    .headersubdivthree {
+        display: none;
+    }
+
+    .headersubdivtwo ul {
+        padding-top: 0px;
+    }
+
+    .headersubdivthree {
+        padding-top: 3px;
+    }
+    .herosectionsubdivtwo h1{
+        font-size: 30px;
+    }
+    .herosectionsubdivtwo h3{
+        font-size: 15px;
+    }
+    .herosectionsubdivtwo{
+        top: 70px;
+        left: 10px;
+    }
+    .searchbar input {
+        padding: 5px 0px 5px 5px;
+        border-radius: 5px;
+        width: auto;
+    }
+    .rangebar{
+        padding: 10px;
+        border-radius: 5px;
+        width: auto;
+    }
+    .rangebar p{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .sectiononesubdivone img{
+        width: 100%;
+        height: auto;
+    }
+    .sectiononesubdivone h3{
+        font-size: 12px;
+    }
+    .button{
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .contentonimg{
+        left: 5px;
+        top: 25px;
+    }
+    .sectionone{
+        margin-top: 30px;
+    }
+    .productone,
+    .producttwo {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 0px;
+
+    }
+
+    .sectiontwoproductone,
+    .sectiontwoproducttwo,
+    .sectiontwoproductthree,
+    .sectiontwoproductfour {
+        width: auto;
+        padding: 10px 0px;
+    }
+
+    .sectiontwoproductone img,
+    .sectiontwoproducttwo img,
+    .sectiontwoproductthree img,
+    .sectiontwoproductfour img {
+        width: 127px;
+    }
+
+    .sectiontwoproductone p,
+    .sectiontwoproducttwo p,
+    .sectiontwoproductthree p,
+    .sectiontwoproductfour p {
+        font-size: 12px;
+        width: 124px;
+    }
+
+    .sectiontwoproductone,
+    .sectiontwoproducttwo,
+    .sectiontwoproductthree,
+    .sectiontwoproductfour,
+    .rate {
+        padding: 18px;
+        padding-bottom: 10px;
+    }
+    .sectiontwo{
+        margin-top: 30px;
+    }
+    #footer{
+        margin-top: 10px;
+    }
+   .contactus h3, .information h3{
+        font-size: 20px;
+     }
+      .contactus p,.information p{
+        font-size: 10px;
+      }
+    .aboutus{
+        display: none;
+    }
+    .contactus{
+        padding-top: 30px;
+        padding-left: 45px;
+    }
+    .information{
+        padding-top: 30px;
+        padding-left: 75px;
+    }
+    footer{
+        margin-top: 30px;
+    }
+    .information{
+        margin: 0;
+    }
+    .phonenumber img{
+        width: 31px;
+        height: 31px;
+        padding-top: 1px;
+    }
+    .location img {
+        width: 31px;
+        height: 31px;
+        padding-top: 15px;
+    }
+    .footersubdivone h3{
+        padding-bottom: 20px;
+    }
+    .footersubdivtwo img{
+        padding-right: 0px;
+        height: 9px;
+    }
+    .footersubdivtwo p{
+        font-size: 10px;
+    }
+    .footersubdivtwo{
+       margin-top: 0px;
+       padding: 10px;
+    }
+}
+   @media (min-width: 1500px) and (max-width: 1920px) {
+
+        .headersubdivone img{
+            width: 170px;
+            height: auto;
+        }
+        .headersubdivtwo ul li a{
+            font-size: 21px;
+            padding-left: 35px;
+        }
+        .headersubdivthree img{
+            width: 40px;
+            height: auto;
+        }
+        .herosectionsubdivtwo h1{
+            font-size: 60px;
+        }
+        .herosectionsubdivtwo h3{
+            font-size: 30px;
+        }
+        .herosectionsubdivtwo{
+            top: 265px;
+            left: 200px;
+        }
+        .contentonimg{
+            left: 245px;
+        }
+        .contentonimg h3{
+            font-size: 30px;
+        }
+        .button{
+            font-size: 21px;
+        }
+        .rangebar p{
+            font-size: 21px;
+        }
+        .sectiontwoproductone p, .sectiontwoproducttwo p, .sectiontwoproductthree p, .sectiontwoproductfour p,.rate{
+            font-size: 21px;
+        }
+        .sectiontwo{
+            margin-top: 70px;
+        }
+        .footersubdivone h3{
+            font-size: 30px;
+        }
+        .footersubdivone p{
+            font-size: 21px;
+        }
+        .location img{
+            padding-top: 10px;
+        }
+        .footersubdivtwo{
+            margin-top: 70px;
+        }
+        .footersubdivtwo p{
+            font-size: 21px;
+        }
+        .footersubdivtwo img{
+            height: 22px;
+        }
+    }
+        
+    
+
+
+
+
+
