@@ -890,3 +890,6 @@ footer {
         height: 22px;
     }
 }
+body{
+    overflow-x: hidden;
+}
